@@ -1,0 +1,34 @@
+package week1.day2assignment;
+
+public class Car {
+	
+	public boolean applyBreak() {
+		return false ;	
+	}
+	
+	public boolean applyGear() {
+		return true ;
+	}
+	
+	public boolean switchOnAc() {
+		return false;
+	}
+	
+	public boolean applyAcclerate() {
+		return true;
+	} 
+	
+	public static void main(String[] args) {
+		Car obj = new Car();
+		boolean applyBreak = obj.applyBreak();
+		System.out.println(applyBreak);
+		boolean applyGear = obj.applyGear();
+		System.out.println(applyGear);
+		boolean switchOnAc = obj.switchOnAc();
+		System.out.println(switchOnAc);
+		boolean applyAcclerate = obj.applyAcclerate();
+		System.out.println(applyAcclerate);
+	}
+	
+	}
+
